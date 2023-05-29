@@ -1,0 +1,290 @@
+body{ 
+     margin: 0;
+	 padding: 0;
+	 line-height: 0;
+}
+
+p{
+	font-family: Serif;
+	font-size:23px;
+}
+
+li{
+	font-family: Serif;
+	font-size:23px;
+}
+
+h1{
+	font-family: Verdana;
+	font-size:65px;
+}
+
+aside p{
+	font-size:14px;
+}
+	
+
+.banner {
+	background-image: url("/WarnerBros images/Warnerbros MenuH.png");
+	height: 100px;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+}
+
+.envelope {
+	position: absolute;
+	margin-top: 20px;
+	margin-left: 200px;
+	width: auto;
+}
+
+.navbar {
+	overflow: hidden;
+	background-color: #111959;
+}
+
+.navbar a{
+	float: left;
+	color: #f2f2f2;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-size: 17px;
+}
+
+.navbar a:hover {
+	background-color: #dd;
+	color: black;
+}
+
+.navbar input[type=text] {
+	position: relative;
+	left:6px;
+	float: right;
+	padding: 6px;
+	border: none;
+	margin-top: 0px;
+	margin-right: 16px;
+	font-size: 17px;
+}
+
+.navbar input[type=text] {
+	border: 1px solid #ccc;
+}
+
+footer{
+	   margin: 0;
+	   padding: 0;
+}
+
+.footerblock {
+	background-image: url('WarnerBros images/Footer2.png');
+	height: 70px;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+}
+
+.footer envelope{
+	position: absolute;
+	margin-top: 100px;
+	width: auto;
+}
+
+.footerbar {
+	overflow: hidden;
+	background-color: #333;
+}
+
+.footerbar a{
+	float: left;
+	color: #f2f2f2;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-size: 12px;
+}
+
+.footerbar a:hover {
+	background-color: #dd;
+	color: black;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+
+.container {
+  position: relative;
+}
+
+
+.mySlides {
+  display: none;
+}
+
+
+.cursor {
+  cursor: pointer;
+}
+
+
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 40%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+
+.caption-container {
+  text-align: center;
+  background-color: #222;
+  padding: 2px 16px;
+  color: white;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+.column {
+  float: left;
+  width: 16.66%;
+}
+
+
+.demo {
+  opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
+}
+
+.ButtonC {
+  position: relative;
+  width: 100%;
+}
+
+.ButtonC img {
+}
+
+.ButtonC .btn {
+  position: absolute;
+  margin-top: 450px;
+  margin-left: -1200px;
+  background-color: #555;
+  color: white;
+  font-size: 16px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.ButtonC .btn:hover {
+  background-color: black;
+}
+
+.glow-on-hover {
+    width: 220px;
+    height: 50px;
+    border: none;
+    outline: none;
+    color: #fff;
+    background: #111;
+    cursor: pointer;
+    z-index: 0;
+    border-radius: 10px;
+	position: absolute;
+    margin-top: 450px;
+    margin-left: -1200px;
+	
+}
+
+.glow-on-hover:before {
+    content: '';
+    background: linear-gradient(45deg, #ff0000, #ff7300, #fffb00, #48ff00, #00ffd5, #002bff, #7a00ff, #ff00c8, #ff0000);
+    position: absolute;
+    top: -2px;
+    left:-2px;
+    background-size: 400%;
+    z-index: -1;
+    filter: blur(5px);
+    width: calc(100% + 4px);
+    height: calc(100% + 4px);
+    animation: glowing 20s linear infinite;
+    opacity: 0;
+    transition: opacity .3s ease-in-out;
+    border-radius: 10px;
+}
+
+.glow-on-hover:active {
+    color: #000
+}
+
+.glow-on-hover:active:after {
+    background: transparent;
+}
+
+.glow-on-hover:hover:before {
+    opacity: 1;
+}
+
+.glow-on-hover:after {
+    z-index: -1;
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #111;
+    left: 0;
+    top: 0;
+    border-radius: 10px;
+}
+
+@keyframes glowing {
+    0% { background-position: 0 0; }
+    50% { background-position: 400% 0; }
+    100% { background-position: 0 0; }
+}
+
+aside {
+  width: 300px;
+  height: 615px;
+  padding-top: 10px;
+  padding-left: 10px;
+  margin-left: 0px;
+  float: left;
+  background-color: darkgrey;
+}

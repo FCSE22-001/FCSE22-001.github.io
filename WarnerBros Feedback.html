@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+
+<!DOCTYPE html>
+
+<html lang="eng">
+ 
+ <head>
+  <meta charset="utf-8">
+  <title>Feedback</title>
+  <link rel="icon" type="image/x-icon" href="WarnerBros images/WB logo.png">
+  <script src="WBFeedback.js"></script>
+  <link rel="stylesheet" href="WarnerBrosFeedback.css">
+ </head>
+
+ <body>
+ <section>
+   <div class="banner">
+   <div class="envelope">
+    <div class="navbar">
+	  <a href="index.html">Home</a>
+	  <a href="Movies.html">Movies</a>
+	  <a href="Games&Apps.html">Games & Apps</a>
+	  <a href="TV Shows.html">TV Shows</a>
+	  <a href="WBCollections.html">Collections</a>
+	  <a href="What'sNew.html">What's New</a>
+	  <input type="text" placeholder="Search..."
+	 </div>
+	</div>
+   </div>
+   </section><br>
+  <div id="feedback-div">
+    <form action="contact.php" method="post" class="form" id="feedback-form1" name="form1" enctype="multipart/form-data">
+
+      <p class="name">
+        <input name="name" type="name" class="validate[required,custom[onlyLetter],length[0,100]] feedback-input" required placeholder="Full Name" id="feedback-name" />
+      </p>
+
+      <p class="email">
+        <input name="email" type="email" class="validate[required,custom[email]] feedback-input" id="feedback-email" placeholder="Email Address" required />
+      </p>
+
+      <p class="text">
+        <textarea name="comment" type="comment" class="validate[required,length[6,300]] feedback-input" id="feedback-comment" required placeholder="Your thoughts on the website..."></textarea>
+      </p>
+
+      <div class="feedback-submit">
+        <input type="submit" value="SEND" id="feedback-button-blue" />
+        <div class="feedback-ease"></div>
+      </div>
+    </form>
+  </div>
+</div>
+
+  </body>
+ 
+ 
+
+  
+ </html>

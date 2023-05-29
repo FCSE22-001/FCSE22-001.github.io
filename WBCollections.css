@@ -1,0 +1,108 @@
+body{ 
+     margin: 0;
+	 padding: 0;
+	 line-height: 0;
+}
+
+.banner {
+	background-image: url('/WarnerBros images/Warnerbros MenuH.png');
+	height: 100px;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+}
+
+.envelope {
+	position: absolute;
+	margin-top: 20px;
+	margin-left: 200px;
+	width: auto;
+	overflow: hidden;
+}
+
+.navbar {
+	overflow: hidden;
+	background-color: #111959;
+	margin-top:10px;
+}
+
+.navbar a{
+	float: left;
+	color: #f2f2f2;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-size: 17px;
+}
+
+.navbar a:hover {
+	background-color: #dd;
+	color: black;
+}
+
+.navbar input[type=text] {
+	position: relative;
+	left:6px;
+	float: right;
+	padding: 6px;
+	border: none;
+	margin-top: 0px;
+	margin-right: 16px;
+	font-size: 17px;
+}
+
+.navbar input[type=text] {
+	border: 1px solid #ccc;
+}
+
+.box{
+	border: 1px white;
+	float: left;
+}
+
+.box p{
+	
+
+footer{
+	   margin: 0;
+	   padding: 0;
+}
+
+.footerblock {
+	background-image: url("WarnerBros images/Footer2.png");
+	height: 70px;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+}
+
+.footer envelope{
+	position: absolute;
+	margin-top: 100px;
+	width: auto;
+}
+
+.footerbar {
+	overflow: hidden;
+	background-color: #333;
+}
+
+.footerbar a{
+	float: left;
+	color: #f2f2f2;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-size: 12px;
+}
+
+.footerbar a:hover {
+	background-color: #dd;
+	color: black;
+}
+
+* {
+  box-sizing: border-box;
+}

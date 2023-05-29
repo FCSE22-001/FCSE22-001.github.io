@@ -1,0 +1,181 @@
+body{ 
+     margin: 0;
+	 padding: 0;
+	 line-height: 0;	 
+}
+
+.banner {
+	background-image: url('/WarnerBros images/Warnerbros MenuH.png');
+	height: 100px;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+}
+
+.envelope {
+	position: absolute;
+	margin-top: 20px;
+	margin-left: 200px;
+	width: auto;
+}
+
+.navbar {
+	overflow: hidden;
+	background-color: #333;
+}
+
+.navbar a{
+	float: left;
+	color: #f2f2f2;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-size: 17px;
+}
+
+.navbar a:hover {
+	background-color: #dd;
+	color: black;
+}
+
+.navbar input[type=text] {
+	position: relative;
+	left:6px;
+	float: right;
+	padding: 6px;
+	border: none;
+	margin-top: 0px;
+	margin-right: 16px;
+	font-size: 17px;
+}
+
+.navbar input[type=text] {
+	border: 1px solid #ccc;
+}
+
+.MovieEnvelope {
+	position: relative;
+	display: flex;
+	justify-content: space-between;
+	overflow-x: auto;
+}
+
+.MovieEnvelope  .MovieImg{
+	position:relative;
+	cursor:pointer
+}
+
+.MovieEnvelope  .MovieImg .screen{
+	width: 350px;
+	height: 200px;
+	transition: 0.5s;
+}
+
+.MovieEnvelope  .MovieImg .screen.screen1{
+    position: relative;
+    background: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+    transform: translateY(100px);
+}
+
+.MovieEnvelope .MovieImg:hover .screen.screen1{
+    background: #ff0057;
+    transform: translateY(0);
+}	
+
+.MovieEnvelope  .MovieImg .screen.screen1 .content{
+	opacity: 0.6;
+	transition: 0.5s;
+}
+
+.MovieEnvelope .MovieImg:hover .screen.screen1	.content{
+	opacity: 1;
+}
+
+.MovieEnvelope .MovieImg .screen.screen1 .content img{
+	max-width: 350px;
+}
+
+.MovieEnvelope  .MovieImg .screen.screen2{
+	position: relative;
+	background: #fff;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 20px;
+	box-sizing: border-box;
+	box-shadow: 0 20px 50px rgba(0, 0, 0, 0.8);
+	transform: translateY(-100px);
+}
+
+.MovieEnvelope .MovieImg:hover .screen.screen2{
+    transform: translateY(0);
+}
+
+.MovieEnvelope .MovieImg .screen.screen2 .content h1{
+	margin: 0;
+	padding: 0;
+}
+
+.MovieEnvelope .MovieImg .screen.screen2 .content p{
+	margin: 0;
+	padding: 0;
+}
+
+.MovieEnvelope .MovieImg .screen.screen2 .content a{
+	margin: 15px 0 0;
+	display: inline-block;
+	text-decoration: none;
+	font-weight: 900;
+	color: #333;
+	padding: 10px;
+	border: 3px solid #333;
+}
+
+.MovieEnvelope .MovieImg .screen.screen2 .content a:hover{
+	background: #333;
+	color: #fff;
+}
+
+footer{
+	   margin: 0;
+	   padding: 0;
+}
+
+.footerblock {
+	background-image: url("WarnerBros images/Footer2.png");
+	height: 70px;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+}
+
+.footer envelope{
+	position: absolute;
+	margin-top: 100px;
+	width: auto;
+}
+
+.footerbar {
+	overflow: hidden;
+	background-color: #333;
+}
+
+.footerbar a{
+	float: left;
+	color: #f2f2f2;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-size: 12px;
+}
+
+.footerbar a:hover {
+	background-color: #dd;
+	color: black;
+}
